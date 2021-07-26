@@ -1,0 +1,51 @@
+.logo {
+    .ne {
+        font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #0B132A;
+    }
+
+}
+
+.nav-link {
+    a {
+        color: #4F5665;
+        font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        &:hover {
+            color: $nav !important;
+          }
+       }
+}
+
+    .In, .Up {
+
+        background-color: white !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 16px !important;
+        line-height: 19px !important;
+        color: #0B132A !important;
+        border: 1px solid transparent !important;
+        transition: all 0.5s ease !important;
+        border-radius: 25px !important;
+       
+          &:hover {
+            border: 1px solid red !important;
+            color: $nav !important;
+          }
+    }
+    
+
+    // @media (min-width: 992px) {
+    //     .navbar-expand-md .navbar-toggler {
+    //         display: block !important;
+    //     }
+    //     }
+
+   

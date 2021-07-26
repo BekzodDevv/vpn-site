@@ -1,0 +1,133 @@
+.k {
+    font-weight: 500;
+font-size: 35px;
+line-height: 50px;
+color: #0B132A;
+}
+
+.kk {
+    font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+color: #4F5665;
+}
+
+
+.section__51 {
+    .container {
+        margin-right: 0px !important;
+        padding-right: 0px !important;
+        max-width: 1230px;
+    }
+}
+
+
+.item {
+    margin-left: 22px;
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    &:hover {
+        border: 2px solid $nav;
+    }
+    .rob {
+        font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+color: #0B132A;
+.war {
+    font-weight: normal;
+font-size: 14px;
+line-height: 30px;
+color: #4F5665;
+}
+    }
+
+    .wow {
+        font-style: normal;
+        font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+color: #0B132A;
+    }
+
+    .son {
+        font-size: 16px;
+line-height: 30px;
+color: #0B132A;
+    }
+    .yulduz {
+        max-width: 20px;
+        height: 20px;
+        margin-top: 4px;
+    }
+}
+
+
+.alice-carousel__dots{
+    margin: 50px 3px 5px 25px !important;
+    text-align: left !important;
+    .alice-carousel__dots-item{
+      width: 15px !important;
+      height: 15px !important;
+    }
+
+    .alice-carousel__dots-item:not(.__custom):hover, 
+    .alice-carousel__dots-item:not(.__custom).__active {
+        background-color: $nav;
+}
+}
+
+
+
+.alice-carousel__prev-btn{
+    width: 60% !important;
+    margin-left: 30%;
+    transform: translateY(-55px);
+    .alice-carousel__prev-btn-wrapper{
+        .alice-carousel__prev-btn-item {  
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+       border: 1px solid red;
+       text-align: center;
+              &:hover {
+                  background-color: $nav;
+                  color: white;
+              }
+        }
+    }
+}
+
+
+.alice-carousel__next-btn{
+    width: 10% !important;
+     transform: translateY(-55px);
+    .alice-carousel__next-btn-wrapper{
+        .alice-carousel__next-btn-item {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+       border: 1px solid red;
+       text-align: center;
+       &:hover {
+        background-color: $nav;
+        color: white;
+    }
+           
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

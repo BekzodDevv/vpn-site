@@ -1,0 +1,168 @@
+.footerr {
+    margin-top: -104px;
+.container {
+    transform: translateY(115px);
+    background: #FFFFFF;
+border-radius: 10px;
+}
+
+
+    .sub {
+        font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+    color: #0B132A;
+    
+    .with {
+        font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    padding-bottom: 35px;
+    }
+    }
+    
+    .te {
+        text-align: right;
+    }
+    
+    .bbbbbbb {
+        background-color: $nav;
+        color: white;
+        font-style: normal;
+        width: 250px;
+height: 60px;
+font-weight: bold;
+font-size: 16px;
+line-height: 25px;
+    }
+}
+
+
+
+
+
+.footer2 {
+
+    dl, ol, ul {
+        padding-left: 0px;
+        text-decoration: none;
+        list-style: none;
+        margin-top: 22px !important;
+        margin-bottom: 1rem;
+      
+    }
+
+    background: #F8F8F8;
+         padding-top: 200px;
+         padding-bottom: 100px;
+    .vir {
+        font-weight: 500;
+        font-style: normal;
+font-size: 16px;
+line-height: 30px;
+color: #4F5665;
+    }
+
+.icons {
+    .icon {
+           cursor: pointer;
+    }
+}
+
+.kom {
+    font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+color: #AFB5C0;
+
+}
+
+.ule {
+
+    .pro {
+        font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0B132A;
+    }
+    
+  li {
+      margin-bottom: 13px;
+      font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+color: #4F5665;
+cursor: pointer;
+&:hover {
+    color: $nav;
+}
+  }
+
+}
+
+}
+
+
+@media (max-width: 992px) {
+    .footerr {
+      .kere {
+          padding-left: 0px !important;
+          text-align: center;
+          .d-flex {
+              justify-content: center;
+              align-items: center;
+          }
+      }
+
+     .te {
+            text-align: center !important;
+        }
+    }
+
+.footer2 {
+    .row {
+        .tr {
+            text-align: right;
+        }
+    }
+}
+
+.bbbbbbb {
+    margin-bottom: 50px;
+}
+    }
+
+
+    @media (max-width: 768px) {
+    .footer2 {
+        .row {
+            .trrr {
+                text-align: center !important;
+            }
+        }
+    }
+    
+    
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

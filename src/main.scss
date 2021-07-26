@@ -1,0 +1,39 @@
+body {
+    box-sizing: border-box;
+    padding: 0 !important;
+}
+
+$nav: #F53855;
+
+
+
+@import './component/Navbar/Navbar1.scss';
+@import './component/Section1/Section1.scss';
+@import './component/Section2/Section21.scss';
+@import './component/Section3/Section31.scss';
+@import './component/Section4/Section41.scss';
+@import './component/Section5/Section51.scss';
+@import './component/Footer/Footer.scss';
+
+
+
+
+
+a {
+    text-decoration: none!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

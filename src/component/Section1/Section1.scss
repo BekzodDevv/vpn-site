@@ -1,0 +1,131 @@
+.section__1 {
+    margin-top: 100px;
+    .lore {
+        font-weight: 600;
+    font-size: clamp(35px, 5vw, 50px);
+    line-height: 70px;
+    color: #0B132A;
+    }
+
+    x
+    
+    .pre {
+        font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    }
+
+    .btt {
+        width: 250px;
+        height: 60px;
+        border-radius: 10px;
+        font-weight: bold;
+        font-size: 16px;
+line-height: 25px;
+        background-color: $nav;
+        &:hover {
+            background-color: $nav;
+        }
+    }
+}
+
+
+.section___1 {
+    margin-top: 110px;
+  
+    margin-bottom: 100px;
+    .container {
+        padding-right: 50px;
+padding-left: 50px;
+box-shadow: 0 30px 30px 0px rgba(0, 0, 255, .1);
+
+.st {
+    border-right: 2px solid #EEEFF2;;
+}
+
+.card {
+    border: 1px solid transparent;
+   
+    .card-body {
+        .body {
+            margin-left: 12px;
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 30px;
+        
+            .body{
+              
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+            }
+            
+        }
+    }
+
+
+}
+    }
+
+    
+}
+
+
+@media (max-width: 992px) and (min-width: 767px ) {
+    .section___1{
+        .stiv {
+           .imggg {
+               width: 53px;
+               height: auto;
+           }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .section__1 {
+        .lore {
+            text-align: center;
+        // font-size: 40px;
+        }
+        .pre {
+            text-align: center;
+        }
+        .bb {
+            text-align: center;
+        }
+
+        .images {
+            margin-top: 50px;
+        }
+
+    }
+    
+    .section___1 {
+        margin-top: 80px;
+    }
+         .st {
+             border: 1px solid transparent !important;
+         }
+         .bvb{
+             padding-right: 53px !important;
+         }
+         .bvbb {
+            padding-right: 26px !important;
+         }
+
+        }
+
+        @media (max-width: 411px) {
+            .section__1 {
+                .lore {
+                // font-size: 35px;
+                line-height: 50px;
+                }
+                
+            }
+            
+                }
+
+

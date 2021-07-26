@@ -1,0 +1,117 @@
+.section__3 {
+    max-width: 1400px;
+    background: #E5E5E5;
+     padding-top: 80px;
+
+    .titlee {
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 50px;
+        color: #0B132A;
+    }
+    
+    .qwe {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        color: #4F5665;
+    }
+
+    .plan {
+        font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+color: #0B132A;
+    }
+
+    .kkk {
+        font-weight: normal;
+font-size: 14px;
+line-height: 30px;
+color: #4F5665;
+    }
+
+    .card {
+         border-radius: 10px;
+         transition: all 0.5s ease !important;
+         box-sizing: border-box;
+         border: 2px solid transparent;
+        &:hover {
+            border: 2px solid $nav;
+           
+        }
+    }
+
+
+    .card-footer {
+        background-color: #fff;
+        border-top: 1px solid transparent;
+
+        .free {
+            font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+        }
+    }
+
+    button {
+        background-color: white !important;
+        color: $nav !important;
+        border: 1px solid transparent !important;
+        font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+        transition: all 0.5s ease !important;
+        border: 1px solid $nav !important;
+        border-radius: 25px !important;
+        width: 177.88px !important;
+        height: 45px !important;
+       
+          &:hover {
+           background-color: $nav !important;
+            color: white !important;
+          }
+    }
+}
+
+                  @media (min-width: 576px) {
+                      .card-deck .card {
+                          min-width: 50.1% !important; /* 1 Column */
+                          margin-bottom: 12px;
+                      }
+                  }
+              
+                  @media (min-width: 768px) {
+                      .card-deck .card {
+                          min-width: 33.4% !important;  /* 2 Columns */
+                          margin-bottom: 12px;
+                      }
+                  }
+              
+                  @media (min-width: 992px) {
+                      .card-deck .card {
+                          min-width: 25.1% !important;  /* 3 Columns */
+                          margin-bottom: 12px;
+                     
+                      }
+                  }
+              
+                  @media (min-width: 1200px) {
+                      .card-deck .card {
+                          min-width: 20.1% !important;  /* 4 Columns */
+                      }
+                  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
